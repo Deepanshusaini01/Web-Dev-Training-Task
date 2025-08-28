@@ -1,0 +1,52 @@
+.navbar{  background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 20px 20px 20px;
+    
+    
+}
+h1,h2{
+    text-align: center;
+    color: rgb(219, 143, 21)
+}
+#center{
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    color: rgba(255, 6, 6, 0.897);
+}
+.Image img{
+    height: 400px;
+    width: 400px;
+    display:inline-block
+    
+}
+
+a{
+     margin: 60px;
+     text-decoration: none;
+     color: white;
+     width: 100px;
+}
+footer{
+    text-align:left;
+    color: tomato;
+    
+}
+form{
+    text-align: center;
+    border-radius: 20px;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Image #img1,#img2,#img3{
+
+    padding-left: 120px;
+
+}
+.navbar :hover{
+    transform-style: flat;
+    color: black;
+}
