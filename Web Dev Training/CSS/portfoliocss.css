@@ -1,0 +1,29 @@
+#header {
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    padding-bottom: 10;
+}
+#footer {
+    text-align: end;
+    background-color: black;
+    color: white;
+}
+#navbar  {
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:20;
+    font-size: medium;
+    font-weight: bold;
+
+}
+a :link {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+a :hover{
+    text-decoration: none;
+
+}
