@@ -1,37 +1,38 @@
 
  * {
       box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: "Hanken Grotesk", sans-serif;
       margin: 0;
-      padding: 0;
+      padding: 10px;
+    
     }
-
-    body {
-      background: #f2f5ff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
+ body{
+  background-color: hsl(221, 100%, 96%);
+ }
+  
 
     .container {
-      background: white;
+      background: hsl(221, 100%, 96%);
       border-radius: 20px;
       display: flex;
       flex-direction: row;
+      font-family: "Hanken Grotesk", sans-serif;
+      justify-content: center;
       gap: 0px;
       height: 100%;
       width: 100%;
-
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 0px;
+      padding-bottom: 0px;
       color: white;
       text-align: center;
-      margin-top: 40px;
-      margin-bottom: 40px;
-      margin-left: 140px;
-      margin-right: 140px;
+      margin-top: 300px;
+      margin-bottom: 300px;
+     
     }
     #card-1{
-        background: linear-gradient(180deg, #4e5cf8, #303b59);
+        background: blue;
         border-radius: 20px;
         height: -1%;
         display: flex;
@@ -42,14 +43,18 @@
     }
     #card-2{
         background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         border-radius: 20px;
         height: 50%;
         width: 50%;
     }
 
     #circle {
-      background: white;
-      color: #455dff;
+    
+      display: flex;
+      background: linear-gradient(180deg, #4e5cf8, #303b59);
       width: 180px;
       height: 180px;
       border-radius: 50%;
@@ -65,7 +70,7 @@
     }
 
     .score-circle small {
-      font-size: 33px;
+      font-size: 20px;
       color: #888;
     }
 
@@ -92,18 +97,34 @@
     }
 
     .reaction {
+      display: flex;
+        justify-content: space-between;
          background-color: #fff6f5;
-         color: #d35a5a; }
+         color: #d35a5a;
+         padding: 12px 20px;
+        margin: 10px; }
 
     .memory   {
+      display: flex;
+        justify-content: space-between;
          background-color: #fffdef;
-         color: #e0c44d; }
+         color: #e0c44d;
+         padding: 12px 20px;
+        margin: 10px; }
     .verbal   { 
+      display: flex;
+        justify-content: space-between;
         background-color: #f0fbfa; 
-        color: #4cc5ab; }
+        color: #4cc5ab;
+        padding: 12px 20px; 
+      margin: 10px;}
     .visual   { 
+      display: flex;
+        justify-content: space-between;
         background-color: #f3f3fd;
-         color: #5e6ae7; }
+         color: #5e6ae7;
+         padding: 12px 20px;
+        margin: 10px; }
 
     .continue-btn {
       margin-top: 20px;
@@ -123,28 +144,95 @@
     @media screen and (max-width: 768px) {
          * {
       box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: "Hanken Grotesk", sans-serif;
       margin: 0;
       padding: 7px;
     }
       .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 377px;
+        margin: 0px;
+        background: white;
+        padding: 0px;
+      
+      min-height: 100vh;
+      font-family: "Hanken Grotesk", sans-serif;
+      }
+      #card-1 {
+        display: flex;
         flex-direction: column;
         width: 100%;
-        height: auto;
+        height: 484px;
+        border-radius: 0px 0px 20px 20px;
       }
-      #card-1, #card-2 {
+      #card-2 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
         width: 100%;
-        height: auto;
+        height: 484px;
       }
       #circle {
-        width: 90px;
-        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        width: 140px;
+        height: 140px;
         margin: 20px;
       }
       .score-circle span {
-        font-size: 30px;
+        font-size: 66px;
+        color: white;
       }
       .score-circle small {
-        font-size: 14px;
+        font-size: 21px;
+        color: gray;
       }
+
+      h2{
+        color: white;
+        text-align: left;
+        padding-left: 21px;
+      }
+      .reaction {
+        display: flex;
+        justify-content: space-between;
+         background-color: #fff6f5;
+         color: #d35a5a;
+         padding: 12px 20px;
+        margin: 10px; }
+
+    .memory   {
+      display: flex;
+        justify-content: space-between;
+         background-color: #fffdef;
+         color: #e0c44d;
+         padding: 12px 20px;
+        margin: 10px; }
+    .verbal   { 
+      display: flex;
+        justify-content: space-between;
+        background-color: #f0fbfa; 
+        color: #4cc5ab;
+        padding: 12px 20px; 
+      margin: 10px;}
+    .visual   { 
+      display: flex;
+        justify-content: space-between;
+        background-color: #f3f3fd;
+         color: #5e6ae7;
+         padding: 12px 20px;
+        margin: 10px; }
+        body{
+          padding: 0px;
+        }
+      html{
+        padding:0px
+      }
+      p{
+        width: 270px;
+      }
+      
     }
