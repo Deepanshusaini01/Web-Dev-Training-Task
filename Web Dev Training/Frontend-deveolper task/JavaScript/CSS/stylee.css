@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.inner {
+  margin-top: 15px;
+}
+
+.purple {
+  background: #7c3aed;
+  color: white;
+}
+
+.yellow {
+  background: #facc15;
+}
+
+.orange {
+  background: #fbbf24;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  background: #facc15;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.stars {
+  color: #facc15;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* bar chart styles */
+.bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.bar {
+  width: 25px;
+  border-radius: 6px;
+  background: #a78bfa;
+}
+.bar:nth-child(1) { height: 40px; }
+.bar:nth-child(2) { height: 70px; }
+.bar:nth-child(3) { height: 120px; background:#7c3aed; }
+.bar:nth-child(4) { height: 90px; }
+
+.growth {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.growth div {
+  text-align: center;
+}
+
+.growth p {
+  margin: 5px 0;
+}
+
+.green {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.big {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.purple-text {
+  color: purple;
+}
+
+.yellow-text {
+  color: #facc15;
+}
+
+/* Fixed grid placement */
+.create     { grid-column: 1; grid-row: 1; }
+.title      { grid-column: 2 / 4; grid-row: 1; }
+.schedule   { grid-column: 3; grid-row: 2; }
+.write-ai   { grid-column: 1; grid-row: 2; }
+.manage     { grid-column: 2; grid-row: 2; }
+.maintain   { grid-column: 2; grid-row: 3; }
+.growth56   { grid-column: 1; grid-row: 3; }
+.followers  { grid-column: 3; grid-row: 3 / 5; }
+.biggrowth  { grid-column: 2 / 4; grid-row: 4; }
